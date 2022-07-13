@@ -24,7 +24,11 @@ a {
 /*Header/Cabeçalho*/
 
 .logo {
-    margin-left: 2rem;
+    margin-left: 7rem;
+}
+
+.logo-img {
+    width: 30%;
 }
 
 .header {
@@ -33,7 +37,7 @@ a {
     align-items: center;
     margin: 0px;
     padding: 10px;
-    height: 50px;
+    height: 100px;
     background-color: rgb(36, 32, 32);
 }
 
@@ -47,12 +51,18 @@ a {
     color: #fff;
 }
 
+.menu li:hover{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 32, 32);
+}
+
 .menu li a{
     display: block;
     padding: 10px;
 }
 
-.menu li:hover{
+.menu a:hover{
     color: rgb(119, 115, 115);
 }
 
@@ -61,7 +71,7 @@ a {
 .banner {
     background-color: #8a8078;
     position: relative;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 120px);
     display: flex;
     align-items: center;
 }
@@ -106,7 +116,7 @@ a {
 
 button.social {
     background-color: #e6ded5;
-    border-radius: 15px;
+    border-radius: 10px;
     height: 50px;
     width: 200px;
 }
@@ -123,7 +133,7 @@ figure {
 }
 
 .autor{
-    width: 90vh;
+    width: 84vh;
 }
 
 .autor:hover{
@@ -147,6 +157,27 @@ figure {
     position: relative;
     height: 40vh;
     background-color: #d8b898;
+    display: flex;
+    padding-left: 15%;
+    align-items: center;
+}
+
+.keila h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.keila-img {
+    border-radius: 50%;
+}
+
+.underline-keila {
+    background-color: #242020;
+    margin-left: 15%;
+    height: 2px;
+    width: 20%;
 }
 
 .nino {
