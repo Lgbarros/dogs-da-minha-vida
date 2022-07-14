@@ -158,7 +158,9 @@ figure {
     height: 100vh;
 }
 
-/*Cachorros*/
+/*------------------Cachorros------------------*/
+
+/*------------------KEILA------------------*/
 
 .keila {
     position: relative;
@@ -187,6 +189,8 @@ figure {
     height: 2px;
     width: 20%;
 }
+
+/*------------------NINO------------------*/
 
 .nino {
     position: relative;
@@ -222,28 +226,136 @@ figure {
     width: 100%;
 }
 
+/*------------------PIPOCA------------------*/
+
 .pipoca {
     position: relative;
     height: 40vh;
     background-color: #d8b898;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
 }
+
+.pipoca h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.pipoca-img {
+    border-radius: 50%;
+}
+
+.underline-pipoca {
+    background-color: #242020;
+    margin-left: 15%;
+    height: 2px;
+    width: 20%;
+}
+
+/*------------------THOR------------------*/
 
 .thor {
     position: relative;
     height: 40vh;
     background-color: #b88e65;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.thor h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.thor-img {
+    border-radius: 50%;
+}
+
+.underline-thor {
+    background-color: #242020;
+    margin-left: 95%;
+    height: 2px;
+    width: 20%;
+}
+
+.underline-thor:hover {
+    background-color: #242020;
+    margin-left: 5%;
+    height: 2px;
+    width: 100%;
+}
+
+/*------------------MEL------------------*/
 
 .mel {
     position: relative;
     height: 40vh;
     background-color: #d8b898;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
 }
+
+.mel h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.mel-img {
+    border-radius: 50%;
+}
+
+.underline-mel {
+    background-color: #242020;
+    margin-left: 15%;
+    height: 2px;
+    width: 20%;
+}
+
+/*------------------MISHA------------------*/
 
 .misha {
     position: relative;
     height: 40vh;
     background-color: #b88e65;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.misha h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.misha-img {
+    border-radius: 50%;
+}
+
+.underline-misha {
+    background-color: #242020;
+    margin-left: 95%;
+    height: 2px;
+    width: 20%;
+}
+
+.underline-misha:hover {
+    background-color: #242020;
+    margin-left: 5%;
+    height: 2px;
+    width: 100%;
 }
 
 /*Rodapé*/
