@@ -160,6 +160,50 @@ figure {
 
 /*------------------Cachorros------------------*/
 
+/*Efeitos geral da seção left/esquerda*/
+
+.dog-left {
+    position: relative;
+    height: 100vh;
+    background-color: #d8b898;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dog-left h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.dog-left-img {
+    border-radius: 50%;
+}
+
+/*Efeitos geral da seção right/direita*/
+
+.dog-right {
+    position: relative;
+    height: 100vh;
+    background-color: #b88e65;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dog-right h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.dog-right-img {
+    border-radius: 50%;
+}
+
 /*Underline Título dos Cachorros (Left/Esquerda)*/
 
 .underline-left {
@@ -233,141 +277,7 @@ figure {
     transform: scaleX(1);
     transform-origin: bottom right;
   }
-
-/*------------------KEILA------------------*/
-
-.keila {
-    position: relative;
-    height: 40vh;
-    background-color: #d8b898;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.keila h2{
-    font-size: 40px;
-    padding-left: 15%;
-    text-transform: uppercase;
-    color: #242020;
-}
-
-.keila-img {
-    border-radius: 50%;
-}
-
-/*------------------NINO------------------*/
-
-.nino {
-    position: relative;
-    height: 40vh;
-    background-color: #b88e65;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nino h2{
-    font-size: 40px;
-    padding-left: 15%;
-    text-transform: uppercase;
-    color: #242020;
-}
-
-.nino-img {
-    border-radius: 50%;
-}
-
-/*------------------PIPOCA------------------*/
-
-.pipoca {
-    position: relative;
-    height: 40vh;
-    background-color: #d8b898;
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-around;
-}
-
-.pipoca h2{
-    font-size: 40px;
-    padding-left: 15%;
-    text-transform: uppercase;
-    color: #242020;
-}
-
-.pipoca-img {
-    border-radius: 50%;
-}
-
-/*------------------THOR------------------*/
-
-.thor {
-    position: relative;
-    height: 40vh;
-    background-color: #b88e65;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.thor h2{
-    font-size: 40px;
-    padding-left: 15%;
-    text-transform: uppercase;
-    color: #242020;
-}
-
-.thor-img {
-    border-radius: 50%;
-}
-
-/*------------------MEL------------------*/
-
-.mel {
-    position: relative;
-    height: 40vh;
-    background-color: #d8b898;
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-around;
-}
-
-.mel h2{
-    font-size: 40px;
-    padding-left: 15%;
-    text-transform: uppercase;
-    color: #242020;
-}
-
-.mel-img {
-    border-radius: 50%;
-}
-
-/*------------------MISHA------------------*/
-
-.misha {
-    position: relative;
-    height: 40vh;
-    background-color: #b88e65;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.misha h2{
-    font-size: 40px;
-    padding-left: 15%;
-    text-transform: uppercase;
-    color: #242020;
-}
-
-.misha-img {
-    border-radius: 50%;
-}
-
+  
 /*Rodapé*/
 
 footer{
