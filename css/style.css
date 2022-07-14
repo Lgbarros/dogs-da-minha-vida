@@ -31,6 +31,13 @@ a {
     width: 30%;
 }
 
+.logo-img:hover {
+    -webkit-transform: scale(1.5);
+	transform: scale(1.2);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -158,8 +165,9 @@ figure {
     height: 40vh;
     background-color: #d8b898;
     display: flex;
-    padding-left: 15%;
+    
     align-items: center;
+    justify-content: space-around;
 }
 
 .keila h2{
@@ -184,6 +192,34 @@ figure {
     position: relative;
     height: 40vh;
     background-color: #b88e65;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nino h2{
+    font-size: 40px;
+    padding-left: 15%;
+    text-transform: uppercase;
+    color: #242020;
+}
+
+.nino-img {
+    border-radius: 50%;
+}
+
+.underline-nino {
+    background-color: #242020;
+    margin-left: 95%;
+    height: 2px;
+    width: 20%;
+}
+
+.underline-nino:hover {
+    background-color: #242020;
+    margin-left: 5%;
+    height: 2px;
+    width: 100%;
 }
 
 .pipoca {
