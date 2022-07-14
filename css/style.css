@@ -160,6 +160,80 @@ figure {
 
 /*------------------Cachorros------------------*/
 
+/*Underline Título dos Cachorros (Left/Esquerda)*/
+
+.underline-left {
+    background-color: #242020;
+    margin-top: -3px;
+    margin-left: 15%;
+    height: 3px;
+    width: 20%;
+}
+
+/*Underline Título dos Cachorros (Right/Direita)*/
+
+.underline-right {
+    background-color: #242020;
+    margin-left: 95%;
+    height: 3px;
+    width: 20%;
+    margin-top: -3px;
+}
+
+/*Hover Título dos Cachorros (Left/Esquerda)*/
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #242020;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    margin-left: 15%;
+    width: 85%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #242020;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/*Hover Título dos Cachorros (Right/Direta)*/
+
+.hover-underline-animation-right {
+    display: inline-block;
+    position: relative;
+    color: #242020;
+}
+
+.hover-underline-animation-right:after {
+    content: '';
+    position: absolute;
+    margin-left: 15%;
+    width: 80%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #242020;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+.hover-underline-animation-right:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+  }
+
 /*------------------KEILA------------------*/
 
 .keila {
@@ -167,7 +241,6 @@ figure {
     height: 40vh;
     background-color: #d8b898;
     display: flex;
-    
     align-items: center;
     justify-content: space-around;
 }
@@ -181,13 +254,6 @@ figure {
 
 .keila-img {
     border-radius: 50%;
-}
-
-.underline-keila {
-    background-color: #242020;
-    margin-left: 15%;
-    height: 2px;
-    width: 20%;
 }
 
 /*------------------NINO------------------*/
@@ -210,20 +276,6 @@ figure {
 
 .nino-img {
     border-radius: 50%;
-}
-
-.underline-nino {
-    background-color: #242020;
-    margin-left: 95%;
-    height: 2px;
-    width: 20%;
-}
-
-.underline-nino:hover {
-    background-color: #242020;
-    margin-left: 5%;
-    height: 2px;
-    width: 100%;
 }
 
 /*------------------PIPOCA------------------*/
@@ -249,13 +301,6 @@ figure {
     border-radius: 50%;
 }
 
-.underline-pipoca {
-    background-color: #242020;
-    margin-left: 15%;
-    height: 2px;
-    width: 20%;
-}
-
 /*------------------THOR------------------*/
 
 .thor {
@@ -276,20 +321,6 @@ figure {
 
 .thor-img {
     border-radius: 50%;
-}
-
-.underline-thor {
-    background-color: #242020;
-    margin-left: 95%;
-    height: 2px;
-    width: 20%;
-}
-
-.underline-thor:hover {
-    background-color: #242020;
-    margin-left: 5%;
-    height: 2px;
-    width: 100%;
 }
 
 /*------------------MEL------------------*/
@@ -315,13 +346,6 @@ figure {
     border-radius: 50%;
 }
 
-.underline-mel {
-    background-color: #242020;
-    margin-left: 15%;
-    height: 2px;
-    width: 20%;
-}
-
 /*------------------MISHA------------------*/
 
 .misha {
@@ -342,20 +366,6 @@ figure {
 
 .misha-img {
     border-radius: 50%;
-}
-
-.underline-misha {
-    background-color: #242020;
-    margin-left: 95%;
-    height: 2px;
-    width: 20%;
-}
-
-.underline-misha:hover {
-    background-color: #242020;
-    margin-left: 5%;
-    height: 2px;
-    width: 100%;
 }
 
 /*Rodapé*/
