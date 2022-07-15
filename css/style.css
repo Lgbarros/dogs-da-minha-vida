@@ -29,7 +29,9 @@ a {
 
 .logo-img {
     width: 30%;
+    -webkit-transition: .3s all ease-in;
 }
+
 
 .logo-img:hover {
     -webkit-transform: scale(1.5);
@@ -141,6 +143,7 @@ figure {
 
 .autor{
     width: 84vh;
+    -webkit-transition: .5s all ease-in;
 }
 
 .autor:hover{
@@ -180,6 +183,23 @@ figure {
 
 .dog-left-img {
     border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: -75px -69px #b88e65;
+    -webkit-transition: .5s all ease-in;
+}
+
+/*Efeitos hover da imagem do lado esquerdo*/
+
+.dog-left-img:hover {
+    transform: scale(1.1);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+
+.dog-left-img:hover:after {
+    transform: scale(1);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
 }
 
 /*Efeitos geral da seção right/direita*/
@@ -202,6 +222,17 @@ figure {
 
 .dog-right-img {
     border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 69px -75px #d8b898;
+    -webkit-transition: .5s all ease-in;
+}
+
+/*Efeitos hover da imagem do lado direito*/
+
+.dog-right-img:hover {
+    transform: scale(1.1);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
 }
 
 /*Underline Título dos Cachorros (Left/Esquerda)*/
@@ -211,16 +242,32 @@ figure {
     margin-top: -3px;
     margin-left: 15%;
     height: 3px;
-    width: 20%;
+    width: 5%;
 }
 
 /*Underline Título dos Cachorros (Right/Direita)*/
 
 .underline-right {
     background-color: #242020;
-    margin-left: 95%;
+    margin-left: 50%;
     height: 3px;
-    width: 20%;
+    width: 5%;
+    margin-top: -3px;
+}
+
+.underline-right-nino {
+    background-color: #242020;
+    margin-left: 36%;
+    height: 3px;
+    width: 5%;
+    margin-top: -3px;
+}
+
+.underline-right-thor {
+    background-color: #242020;
+    margin-left: 33%;
+    height: 3px;
+    width: 5%;
     margin-top: -3px;
 }
 
@@ -230,13 +277,14 @@ figure {
     display: inline-block;
     position: relative;
     color: #242020;
+    letter-spacing: 3px;
 }
 
 .hover-underline-animation:after {
     content: '';
     position: absolute;
-    margin-left: 15%;
-    width: 85%;
+    margin-left: 40%;
+    width: 62%;
     transform: scaleX(0);
     height: 3px;
     bottom: 0;
@@ -262,7 +310,7 @@ figure {
 .hover-underline-animation-right:after {
     content: '';
     position: absolute;
-    margin-left: 15%;
+    margin-left: 20%;
     width: 80%;
     transform: scaleX(0);
     height: 3px;
@@ -277,6 +325,46 @@ figure {
     transform: scaleX(1);
     transform-origin: bottom right;
   }
+
+/*Ficha técnica do lado esquerdo*/
+
+.ficha-tecnica {
+    width: 500px;
+    padding-left: 15%;
+    padding-top: 5%;
+    letter-spacing: 3px;
+}
+
+.ficha-tecnica b{
+    color: #242020;
+    letter-spacing: 3px;
+}
+
+.ficha-tecnica p {
+    padding: 5% 0;
+    color: #e6ded5;
+    letter-spacing: 3px;
+}
+
+/*Ficha técnica do lado direito*/
+
+.ficha-tecnica-right {
+    width: 500px;
+    padding-left: 15%;
+    padding-top: 5%;
+    letter-spacing: 3px;
+}
+
+.ficha-tecnica-right b{
+    color: #242020;
+    letter-spacing: 3px;
+}
+
+.ficha-tecnica-right p {
+    padding: 5% 0;
+    color: #56402b;
+    letter-spacing: 3px;
+}
   
 /*Rodapé*/
 
@@ -286,7 +374,7 @@ footer{
     align-items: center;
     text-align: center;
     color: #fff;
-    height: 100px;
+    height: 70px;
     padding: 0;
 }
 
@@ -301,9 +389,25 @@ footer p:hover {
 
 footer a{
     font-size: 12px;
-    margin: 0%;
+    margin: 0 auto;
 }
 
 footer a:hover {
     color: rgb(119, 115, 115);
+}
+
+#instagram {
+    margin: 0px 1%;
+}
+
+#whatsapp {
+    margin: 0px 1%;
+}
+
+#linkedin {
+    margin: 0px 1%;
+}
+
+#github {
+    margin: 0px 1%;
 }
