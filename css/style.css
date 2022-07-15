@@ -411,3 +411,35 @@ footer a:hover {
 #github {
     margin: 0px 1%;
 }
+
+/*Responsivo tablet*/
+
+@media (max-width: 1000px) {
+
+}
+
+/*Responsivo celular*/
+
+@media (max-width: 500px) {
+    .dog-right {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-color: #b88e65;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .dog-left {
+        position: relative;
+        height: 100vh;
+        background-color: #d8b898;
+        display: flex;
+        align-items: center;
+        flex-direction: column;s
+        justify-content: space-around;
+    }
+}
