@@ -535,6 +535,7 @@ footer a:hover {
         padding-left: 0%;
         text-align: justify;
         padding-top: 5%;
+        width: 100%;
     }
 
     .dog-right-img {
@@ -564,10 +565,11 @@ footer a:hover {
     }
 
     .ficha-tecnica-right {
-        width: 500px;
+        width: 100%;
         text-align: justify;
         padding-left: 0%;
         padding-top: 5%;
+
     }
 
     .dog-left-img {
