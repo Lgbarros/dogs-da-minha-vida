@@ -425,7 +425,7 @@ footer a:hover {
 
 /*Responsivo celular*/
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .logo-img {
         width: 55%;
         -webkit-transition: .3s all ease-in;
@@ -575,5 +575,9 @@ footer a:hover {
         box-shadow: -5px -17px #e6ded5;
         width: 350px;
         margin-bottom: 15%;
+    }
+
+    .underline-right-nino, .underline-right-thor {
+        margin-left: 0%;
     }
 }
