@@ -379,8 +379,8 @@ footer{
     align-items: center;
     text-align: center;
     color: #fff;
-    height: 70px;
-    padding: 0;
+    height: 100%;
+    padding: 1%;
 }
 
 footer p{
@@ -419,7 +419,168 @@ footer a:hover {
 
 /*Responsivo tablet*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
+    .logo-img {
+        width: 55%;
+        -webkit-transition: .3s all ease-in;
+    }
+
+    .logo-area {
+        margin-left: 0% !important;
+    }
+
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #nav.active #menu {
+        display: flex;
+    }
+
+    .banner {
+        background-color: #8a8078;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-banner {
+        width: 80%;
+        text-align: justify;
+        padding: 5%;
+    }
+
+    .conteudo-banner h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fffffd;
+        padding: 0% !important;
+    }
+
+    .underline {
+        background-color: #fffffd;
+        margin: 0% !important;
+        height: 2px;
+        width: 100%;
+    }
+
+    .conteudo-banner p {
+        font-size: 25px;
+        padding-left: 0% !important;
+        padding-top: 5%;
+        color: #e6ded5;
+    }
+
+    .social-banner {
+        width: 80%;
+        text-align: center;
+        padding-top: 5%;
+        color: #e6ded5;
+    }
+
+    .social-banner a{
+        margin: 5%;
+    }
+
+    button.social {
+        margin-top: 10%;
+    }
+
+    .autor {
+        width: 100%;
+        -webkit-transition: .5s all ease-in;
+    }
+
+    .container {
+        padding: 5%;
+        padding-bottom: 10%;
+        width: 80%;
+    }
+
+    .dog-right {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: #b88e65;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .dog-right h2 {
+        padding-left: 0% !important;
+    }
+
+    .underline-left {
+        margin-left: 0% !important;
+    }
+
+    .ficha-tecnica {
+        padding-left: 0%;
+        text-align: justify;
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    .dog-right-img {
+        border-radius: 50%;
+        border: 2px solid black;
+        box-shadow: 5px -17px #d8b898;
+        width: 350px;
+        margin-bottom: 15%;
+    }
+
+    .dog-left {
+        position: relative;
+        height: 100%;
+        background-color: #d8b898;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    
+    .dog-left h2 {
+        padding-left: 0% !important;
+    }
+
+    .underline-right {
+        margin-left: 0% !important;
+    }
+
+    .ficha-tecnica-right {
+        width: 100%;
+        text-align: justify;
+        padding-left: 0%;
+        padding-top: 5%;
+
+    }
+
+    .dog-left-img {
+        border-radius: 50%;
+        border: 2px solid black;
+        box-shadow: -5px -17px #e6ded5;
+        width: 350px;
+        margin-bottom: 15%;
+    }
+
+    .underline-right-nino, .underline-right-thor {
+        margin-left: 0%;
+    }
+
+    .redes-sociais {
+        padding-top: 5%;
+    }
 
 }
 
@@ -582,5 +743,9 @@ footer a:hover {
 
     .underline-right-nino, .underline-right-thor {
         margin-left: 0%;
+    }
+
+    .redes-sociais {
+        padding-top: 5%;
     }
 }
