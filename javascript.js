@@ -1,3 +1,5 @@
+window.onload=function(){
+    
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(){
@@ -6,3 +8,4 @@ function toggleMenu(){
 }
 
 btnMobile.addEventListener('click', toggleMenu);
+}
