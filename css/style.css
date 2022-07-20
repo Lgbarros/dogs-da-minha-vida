@@ -641,9 +641,9 @@ footer a:hover {
 
 /*Responsivo celular*/
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
     .logo-img {
-        width: 55%;
+        width: 45%;
         -webkit-transition: .3s all ease-in;
     }
 
@@ -730,7 +730,7 @@ footer a:hover {
 
     .conteudo-banner {
         width: 80%;
-        text-align: justify;
+        text-align: left;
         padding: 5%;
     }
 
@@ -804,7 +804,7 @@ footer a:hover {
 
     .ficha-tecnica {
         padding-left: 0%;
-        text-align: justify;
+        text-align: left;
         padding-top: 5%;
         width: 100%;
     }
@@ -837,7 +837,7 @@ footer a:hover {
 
     .ficha-tecnica-right {
         width: 100%;
-        text-align: justify;
+        text-align: left;
         padding-left: 0%;
         padding-top: 5%;
 
