@@ -430,15 +430,70 @@ footer a:hover {
     }
 
     #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    #hamburguer {
         display: block;
+        width: 20px;
+        border-top: 2px solid;
+        color: white;
+    }
+
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
 
     #menu {
-        display: none;
+        display: block !important;
+        position: absolute !important;
+        width: 100% !important;
+        top: 120px !important;
+        right: 0 !important;
+        margin: 0;
+        height: 0px;
+        transition: .6s;
+        background-color: #242020 !important;
+        z-index: 10000;
+        visibility: hidden;
+        overflow: hidden;
     }
 
     #nav.active #menu {
-        display: flex;
+        height: calc(100vh - 120px);
+        visibility: visible;
+        overflow-y: auto;
+    }   
+
+    #menu a {
+        padding: 1rem 0 !important;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgb(255 255 255 / 5%);
     }
 
     .banner {
